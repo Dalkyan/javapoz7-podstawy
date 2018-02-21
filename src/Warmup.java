@@ -10,11 +10,11 @@ public class Warmup {
         int secondValue = scanner.nextInt();
         System.out.println("Please enter third value");
         int thirdValue = scanner.nextInt();
+        int circuit = firstValue + secondValue + thirdValue;
 
         if (firstValue + secondValue > thirdValue && firstValue + thirdValue > secondValue && secondValue + thirdValue > firstValue)
         {
             System.out.println("This is a triangle");
-            int circuit = firstValue + secondValue + thirdValue;
             System.out.println("The average length is: " + ((double)circuit/3));
             System.out.println("Circuit: " + circuit);
 
