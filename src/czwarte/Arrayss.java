@@ -1,13 +1,14 @@
 package czwarte;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class Arrays {
+public class Arrayss {
     public static void main(String[] args) {
 
         int size = 5;
-        int [] descendingNumbers new int[size];
-        for (int i = 0; i < ; i++) {
+        int[] descendingNumbers = new int[size];
+        for (int i = 0; i < descendingNumbers.length; i++) {
             descendingNumbers[i] = descendingNumbers.length - i;
                     }
         System.out.println(Arrays.toString(descendingNumbers));
