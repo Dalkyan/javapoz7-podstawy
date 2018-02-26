@@ -15,7 +15,7 @@ public class Scope {
             System.out.println(names[i]);   // <= names[i].sout + enter daje ten kod
         }
 
-        // scopeOfTypes();
+         scopeOfTypes();
         decimalToBinary();
         BinaryToDecimal();
         String message = "Hello World";
@@ -73,29 +73,30 @@ public class Scope {
         }
         System.out.println(binary);
     }
-//}
-//    private static void scopeOfTypes() {
-//        int number = 1500000000;
-//        System.out.println(number + number);
-//        System.out.println(Integer.MAX_VALUE);
-//        System.out.println(Integer.MIN_VALUE);
-//        long bigNumber = 3000000000000L;
-//        System.out.println(bigNumber);
-//        System.out.println(Long.MAX_VALUE);
-//        System.out.println(Long.MIN_VALUE);
-//
-//        System.out.println(Double.MAX_EXPONENT);
-//        System.out.println(Double.MIN_VALUE);
-//
-//        System.out.println(Float.MAX_VALUE);
-//        System.out.println(Float.MIN_VALUE;
-//        System.out.println(Short.MAX_VALUE);
-//        System.out.println(Short.MIN_VALUE);
-//        System.out.println(Byte.MAX_VALUE);
-//        System.out.println(Byte.MIN_VALUE);
-//
-//        String message = "Hello!";
-//        char character = '$';
-//        System.out.println(character + 3);
 
+    private static void scopeOfTypes() {
+        int number = 1500000000;
+        System.out.println(number + number);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+        long bigNumber = 3000000000000L;
+        System.out.println(bigNumber);
+        System.out.println(Long.MAX_VALUE);
+        System.out.println(Long.MIN_VALUE);
+
+        System.out.println(Double.MAX_EXPONENT);
+        System.out.println(Double.MIN_VALUE);
+
+        System.out.println(Float.MAX_VALUE);
+        System.out.println(Float.MIN_VALUE);
+        System.out.println(Short.MAX_VALUE);
+        System.out.println(Short.MIN_VALUE);
+        System.out.println(Byte.MAX_VALUE);
+        System.out.println(Byte.MIN_VALUE);
+
+        String message = "Hello!";
+        char character = '$';
+        System.out.println(character + 3);
+
+}
 }
